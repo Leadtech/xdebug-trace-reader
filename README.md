@@ -19,7 +19,7 @@ $reader = EntryReader::fromFile(new EntryFactory, __DIR__ . '/../assets/trace.ou
 
 // Or create reader from a pointer
 $fp = fopen(__DIR__ . '/../assets/trace.out.xt');
-$reader -= new EntryReader(new EntryFactory, $fp);
+$reader = new EntryReader(new EntryFactory, $fp);
 ```
 
 
